@@ -1,5 +1,5 @@
 from helper import *
-from qpixl import *
+from QPIXL_qiskit.qpixl_angs import *
 
 def one_image_photoshop(backend, img,shape,comp=10, state_to_prob = np.real):
     """An example class for how you might do some 'quantum photshopping' with QPIXL
